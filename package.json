@@ -1,0 +1,55 @@
+{
+  "name": "tcp-tunnel",
+  "version": "0.0.1",
+  "description": "node.js tcp tunnel",
+  "keywords": [
+    "realtime",
+    "framework",
+    "socket.io",
+    "tcp",
+    "socket"
+  ],
+  "main": "./server.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Einsy/tcp-tunnel.git"
+  },
+  "scripts": {
+  },
+  "dependencies": {
+    "socket.io": "1.6.9",
+    "socket.io-client": "1.4.6",
+  },
+  "devDependencies": {
+  },
+  "contributors": [
+    {
+      "name": "huzhongchuan",
+      "email": "huzc818@qq.com"
+    },
+  ],
+  "bugs": {
+    "url": "https://github.com/Einsy/tcp-tunnel/issues"
+  },
+  "homepage": "https://github.com/Einsy/tcp-tunnel#readme",
+  "_id": "tcp-tunnel@1.4.6",
+  "_npmUser": {
+    "name": "huzc818",
+    "email": "huzc818@qq.com"
+  },
+  "dist": {
+
+  },
+  "maintainers": [
+    {
+      "name": "huzc818",
+      "email": "huzc818@qq.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+
+  },
+  "directories": {},
+  "readme": "ERROR: No README data found!"
+}
