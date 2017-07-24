@@ -1,10 +1,10 @@
 
-# tcp-tunnel
+# Intranet port mapping
 
 ## How to use
 
 The following example attaches tcp-tunnel to a plain Node.JS
-HTTP server listening on port `9093`.
+tcp server listening on port `9093`.
 
 ```client.js
 var remotClient= require("./src/remot-client");
