@@ -9,7 +9,9 @@ tcp server listening on port `9093`.
 这是一个内网端口映射的基础程序，可以实现类似花生壳的软件，
 只要拥有一个可以部署server程序公网IP和端口，就可以通过公网ip和端口访问部署在内网机器上的服务(tcp server)
 
-```client.js 运行在内网机器上
+client.js 运行在内网机器上
+
+```client.js 
 var remotClient= require("./src/remot-client");
 remotClient({
   "signal":{
@@ -25,8 +27,10 @@ remotClient({
     "port":9092
   }
 });
+```
 
-server.js 运行在公网机器上
+server.js //运行在公网机器上
+```server.js 
 
 var signalServer= require("./src/signal-server");
 var tunnelServer= require("./src/tunnel-server");
