@@ -55,5 +55,6 @@ master.run(function(){
 ```
 
 ## License
+MIT
 
 
