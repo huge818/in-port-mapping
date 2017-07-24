@@ -3,10 +3,13 @@
 
 ## How to use
 
-The following example attaches tcp-tunnel to a plain Node.JS
+The following example attaches in-port-mapping to a plain Node.JS
 tcp server listening on port `9093`.
 
-```client.js
+这是一个内网端口映射的基础程序，可以实现类似花生壳的软件，
+只要拥有一个可以部署server程序公网IP和端口，就可以通过公网ip和端口访问部署在内网机器上的服务(tcp server)
+
+```client.js 运行在内网机器上
 var remotClient= require("./src/remot-client");
 remotClient({
   "signal":{
@@ -23,7 +26,7 @@ remotClient({
   }
 });
 
-server.js
+server.js 运行在公网机器上
 
 var signalServer= require("./src/signal-server");
 var tunnelServer= require("./src/tunnel-server");
